@@ -17,3 +17,5 @@ newUser[1] = 'fahad';
 
 // its an edge case of a tuple that the tuple array being defined by the length of 02 can still perform push, pop and other array methords
 newUser.push (1);
+
+//added a dummy comment 

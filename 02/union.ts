@@ -29,3 +29,5 @@ fahad={userName:"fahad",id:785,role:"admin"};
 const data:number []=[1,2,3,4,5,6,7,8,9,10];
 const data2:string[]=["1","2","3","4","5","6","7","8","9","10"];
 const data3:(number | string | boolean)[]=[1,2,3,4,5,6,7,8,9,10,"1","2","3","4","5","6","7","8","9","10", true, false]; 
+
+// the lecture ends here 

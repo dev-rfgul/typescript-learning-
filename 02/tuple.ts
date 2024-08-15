@@ -4,7 +4,7 @@ let tUser: [string, number, boolean];
 
 tUser = ['John', 1, true];
 
-// we cant change the order of the tuple    
+// we cant change the order of the tuple        
 // rgb is the best example of tuple  
 
 let rgb: [number, number, number] = [255, 0, 0];

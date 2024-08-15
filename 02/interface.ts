@@ -11,11 +11,14 @@ interface User {
     getCoupon(coupenName:string, value:number): number;
 }
 
-const histesh: User={
+const Fahad: Admin  ={
     dbId:1,
     id:2,
     age:22,
+    role:"admin",
     name:"Fahad",
+
+    githubId:"fahad",
     startTrial:()=>{
         return "Trial Started";
     },  
@@ -23,3 +26,22 @@ const histesh: User={
         return 100
     }
 }
+
+
+//***************reopening of the interface*********************** */
+
+// this is good if we want to add another property or function to the User we can do it again like this 
+
+interface User{
+    githubId?:string;
+    //it will append the githubId to the User interface
+}
+
+
+// we can add inheritance with the help of inheritence 
+
+
+interface Admin extends User{
+    role: "admin" | "superAdmin" |"TA";
+}
+

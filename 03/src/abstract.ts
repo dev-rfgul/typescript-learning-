@@ -18,3 +18,5 @@ class Instagram extends TakePhoto {
 }
 
 const fahad = new Instagram("Normal", "Portrait");
+
+//added a dummy comment

@@ -5,6 +5,8 @@ abstract class TakePhoto {
     ) {
 
     }
+
+    // getSepia():void
 }
 
 // if the class is normal it following line will give no error, if we add abstract keyword in front of class it will give error and it can be resolved by this methord
@@ -14,6 +16,13 @@ abstract class TakePhoto {
 
 
 class Instagram extends TakePhoto {
+    constructor(
+        public fiter: string,
+        public cameraMode: string,
+    ) {
+        super(fiter, cameraMode);
+    }
+
 
 }
 
